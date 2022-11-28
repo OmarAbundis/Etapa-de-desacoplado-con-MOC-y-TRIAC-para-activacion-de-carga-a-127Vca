@@ -13,7 +13,7 @@ En este trabajo se describe de qué manera se puede realizar una etapa de desaco
 - 1 Resistor de 330ohms. (Naranja,Naranja,Café,Dorado)
 - 1 Resistor de 360ohms. (Naranja,Azul,Café,Dorado)
 - 1 BT137 (TRIAC)
-- 1 MOC3043, optoacoplador
+- 1 [MOC3043, optoacoplador](https://www.datasheetq.com/MOC3043-doc-Motorola)
 - 1 Capacitor de 10nF (103)
 - Alambres con aislante para conexión (UTP)
 - Jumpers MM
