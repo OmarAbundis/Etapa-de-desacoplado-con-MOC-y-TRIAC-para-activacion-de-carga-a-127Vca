@@ -36,7 +36,14 @@ Cuando la línea del puerto pase a un cero lógico, 0 Vcd, el LED del MOC3043 se
 - Jumpers MM
 
 ## Instrucciones de operación
+En cuanto a su utilización, es muy simple solo tiene que hacer lo siguiente:
 
+-	Armar correctamente el circuito electrónico.
+-	Aislar las conexiones a la red eléctrica para evitar sufrir descargas eléctricas.
+-	No tocar el triac mientras este en operación o conectado al suministro eléctrico ya que puede sufrir una descarga eléctrica.
+-	Mandar desde cualquier microcontrolador un uno lógico y mantenerlo en ese nivel todo el tiempo que se quiera que este activada la carga.
+-	Mandar un cero lógico, para detener el suministro eléctrico a la carga.
+-	Si se va a someter a potencias altas, colocarle un disipador de calor adecuado al triac.
 
 ## Material de referencia
 
