@@ -17,7 +17,7 @@ El aislamiento entre el microcontrolador, por ejemplo el ESP32-CAM, y la carga d
 
 Cuando al instante de la conmutación de un triac no coincide con un cruce por cero del voltaje de la red el cambio repentino en la corriente produce un ruido eléctrico de alta frecuencia que introduce interferencias en la red eléctrica, por ejemplo, puede dar lugar a que señales indeseables aparezcan en una pantalla o se hagan audibles chasquidos en el altavoz de un receptor de radio. Para evitar estos problemas el MOC3043 posee un detector de cruce por cero que conmuta el fototriac únicamente cuando la tensión aplicada al mismo pase por cero.
 
-![Circuito](https://github.com/OmarAbundis/Etapa-de-desacoplado-con-MOC-y-TRIAC-para-activacion-de-carga-a-127Vca/blob/main/A026.jpg).
+
 
 En la figura, cuando el microcontrolador mande a través de un puerto un uno lógico (5Vcd) hará circular una corriente de unos 15 mA por el diodo LED del MOC3043, éste emitirá luz, lo que provocará que el fototriac entre en conducción en el siguiente paso por cero del voltaje de la red. Una vez que el fototriac entra en conducción, se comporta prácticamente como un interruptor cerrado que enciende la carga. El triac se desactiva automáticamente cada vez que la corriente pasa por cero, por lo que es necesario volver a disparar al triac en cada semiperiodo, o bien mantenerlo con la señal de control activada durante el tiempo que necesite mantenerse encendida la salida.
 Cuando la línea del puerto pase a un cero lógico, 0 Vcd, el LED del MOC3043 se apaga. En el siguiente paso por cero de la red eléctrica, el triac deja de conducir, comportándose como un interruptor abierto de forma que la carga deja de recibir corriente y se apaga.
