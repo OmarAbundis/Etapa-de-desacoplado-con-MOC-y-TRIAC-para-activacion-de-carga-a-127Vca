@@ -17,6 +17,8 @@ El aislamiento entre el microcontrolador, por ejemplo el ESP32-CAM, y la carga d
 
 Cuando al instante de la conmutación de un triac no coincide con un cruce por cero del voltaje de la red el cambio repentino en la corriente produce un ruido eléctrico de alta frecuencia que introduce interferencias en la red eléctrica.
 
+![Circuito](https://github.com/OmarAbundis/Etapa-de-desacoplado-con-MOC-y-TRIAC-para-activacion-de-carga-a-127Vca/blob/main/A026.jpg).
+
 
 ## Material necesario
 
