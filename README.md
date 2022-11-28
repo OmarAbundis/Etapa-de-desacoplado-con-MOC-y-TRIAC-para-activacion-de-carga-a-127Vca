@@ -18,22 +18,10 @@ En este trabajo se describe de qué manera se puede realizar una etapa de desaco
 - Alambres con aislante para conexión (UTP)
 - Jumpers MM
 
-## Software necesario
-
-## Material de referencia
-
-## Servicios
-
 ## Instrucciones para realiza el control del circuito de sensado de variables
 
 ## Instrucciones de operación
 
-## Resultados
+## Material de referencia
 
-## Evidencias
-
-## Preguntas frecuentes
-
-## Compatibilidad
-
-## Créditos
+Palacios Municio, E. Remiro Domínguez, F. López Pérez, L.J. (2006) *Microcontrolador PIC16F84 Desarrollo de proyectos.* Ed. Alfaomega Ra-ma
